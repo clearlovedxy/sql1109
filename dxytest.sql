@@ -42,3 +42,5 @@ select course, collect_set(area), avg(score) from stud group by course;
 select str_to_map('1001=2020-06-14,1002=2020-06-14',  ','  ,  '=');
 
 select nvl(1,0);
+
+select nvl(1,0);
